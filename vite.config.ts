@@ -9,7 +9,7 @@ export default defineConfig(({mode}) => {
     base: '/m-abm/',
     plugins: [react(), tailwindcss()],
     define: {
-      'process.env.AIzaSyDZA_9-OyzCUZB1Yyo0bCmRU26Rv9yi4d0Y': JSON.stringify(env.AIzaSyDZA_9-OyzCUZB1Yyo0bCmRU26Rv9yi4d0),
+      'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
     },
     resolve: {
       alias: {
